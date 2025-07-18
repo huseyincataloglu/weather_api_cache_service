@@ -1,0 +1,17 @@
+package com.huseyin.basicapp.weather.model.entity;
+
+public enum ErrorCode {
+    START_DATE_AFTER_END_DATE,
+    START_DATE_EQUALS_END_DATE,
+    START_DATE_MISSING_WHEN_END_DATE_PROVIDED,
+    CURRENT_USED_WITH_DATES,
+    INVALIDE_INCLUDE,
+    INVALID_DATE_FORMAT,
+    LOCATION_NULL,
+    TYPE_MISMATCH,
+    UNKNOWN_ERROR
+
+
+
+
+}
